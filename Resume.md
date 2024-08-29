@@ -72,4 +72,7 @@ _Technologies Used_: DialogFlow CX, Vertex AI, GCP
 _Technologies Used_: PySpark, MongoDB  
 [GitHub Repository](https://github.com/ESTHER-PRIYADARSHINI/Vehicle-Recognition-System)
 
+## Headshot
+
+![Esther Priyadarshini Headshot](./path-to-your-image.jpg)
 
