@@ -74,5 +74,5 @@ _Technologies Used_: PySpark, MongoDB
 
 ## Headshot
 
-![Esther Priyadarshini Headshot](.[/https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone/blob/main/docs/headshot.png))
+![Esther Priyadarshini Headshot](./docs/headshot.png)
 
