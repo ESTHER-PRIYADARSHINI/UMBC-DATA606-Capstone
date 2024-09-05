@@ -1,7 +1,7 @@
 # Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
 
 ## Title and Author
-**Title**: Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies 
+**Title**: Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
 **Author**: Esther Priyadarshini  
 
 **Links**:
