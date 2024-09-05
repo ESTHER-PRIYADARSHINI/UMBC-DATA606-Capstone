@@ -1,7 +1,7 @@
-# Stock Price Prediction Using Historical Data
+# Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
 
 ## Title and Author
-**Title**: Stock Price Prediction Using Historical Data  
+**Title**: Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies 
 **Author**: Esther Priyadarshini  
 
 **Links**:
@@ -10,7 +10,7 @@
 - PowerPoint and YouTube: (To be added after completion)
 
 ## Background
-**Topic**: Stock Price Prediction Using Deep Learning
+**Topic**: Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
 
 ### What is it about?
 This project aims to leverage advanced machine learning techniques, specifically a stacked Long Short-Term Memory (LSTM) model, to predict and forecast stock prices for companies from different sectors. The selected companies—Coca-Cola (consumer goods), Apple (technology), Amazon (e-commerce/technology), Pfizer (healthcare), Chevron (energy), and Tesla (automotive)—are industry leaders, making them crucial for investors aiming to diversify their portfolios. By predicting future stock prices accurately, investors can make informed decisions, minimize risk, and maximize returns.
