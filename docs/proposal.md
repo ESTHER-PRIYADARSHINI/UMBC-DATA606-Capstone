@@ -1,66 +1,106 @@
-# Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
+# 1. Title and Author
 
-## Title and Author
-**Title**: Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
+## Project Title:
+Enhancing Business Insights for British Airways: Predictive Modeling and Customer Feedback Analysis
 
-**Author**: Esther Priyadarshini  
+**Prepared for:**  
+UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
 
-**Links**:
-- GitHub: [https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone](https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone)
-- LinkedIn: [https://www.linkedin.com/in/estherpriyadarshini/](https://www.linkedin.com/in/estherpriyadarshini/)
-- PowerPoint and YouTube: (To be added after completion)
+**Author Name:**  
+[Your Name]
 
-## Background
-**Topic**: Diversified Stock Price Prediction Using Deep Learning: A Sector-Based Approach for Enhanced Investment Strategies
+**GitHub Repository:**  
+[Link to the project GitHub repo]
 
-### What is it about?
-This project aims to leverage advanced machine learning techniques, specifically a stacked Long Short-Term Memory (LSTM) model, to predict and forecast stock prices for companies from different sectors. The selected companies—Coca-Cola (consumer goods), Apple (technology), Amazon (e-commerce/technology), Pfizer (healthcare), Chevron (energy), and Tesla (automotive)—are industry leaders, making them crucial for investors aiming to diversify their portfolios. By predicting future stock prices accurately, investors can make informed decisions, minimize risk, and maximize returns.
+**LinkedIn Profile:**  
+[Link to your LinkedIn profile]
 
-### Why does it matter?
-Stock price prediction is a highly valuable tool in financial markets. The ability to forecast future stock prices can provide a competitive edge to investors and traders. More accurate predictions enable informed decision-making, mitigating the impact of market volatility and sector-specific risks. By predicting across multiple sectors, this project will showcase the advantages of diversification, where investors can distribute their investments across different industries to reduce the overall risk associated with downturns in specific sectors.
+**PowerPoint Presentation:**  
+[Link to PowerPoint presentation]
 
-In an ever-growing global economy, industries can fluctuate due to external factors like economic policies, political events, or natural disasters. For instance, while the healthcare sector may see a surge during a global health crisis, the automotive or energy sectors could face challenges. Predicting stock prices across these diverse industries can help minimize the risk of significant losses when one industry faces a downturn. This approach offers a broader, more reliable view for investors looking to grow their portfolios, regardless of market conditions.
+**YouTube Video:**  
+[Link to YouTube video presentation]
+
+---
+
+# 2. Background
+
+This project is focused on providing actionable business insights to British Airways by analyzing both customer review data and a dataset of customer bookings. Two main objectives are pursued:
+
+1. **Customer Review Analysis**: Scrape and analyze reviews from Skytrax, focusing on common complaints and areas for improvement. This analysis will provide recommendations for enhancing customer experience.
+
+2. **Booking Data Analysis**: Using a dataset provided by British Airways, analyze factors that influence whether a customer completes a booking. We aim to build a machine learning model to predict booking completion based on customer behavior and preferences.
+
+### Why Does It Matter?
+
+- Airlines operate in a highly competitive industry, and customer feedback is crucial for improving service quality.
+- Understanding factors that drive or prevent customers from completing bookings can help British Airways refine its business strategies to increase customer conversion and loyalty.
 
 ### Research Questions
-1. Can a stacked LSTM model provide more accurate stock price predictions than traditional models?
-2. How do stock price trends differ across diverse sectors, such as technology, healthcare, consumer goods, energy, and automotive?
-3. Can machine learning-based stock price predictions provide actionable insights for investors to diversify their portfolios and reduce risk?
-4. How can predictive models be enhanced to give new or inexperienced investors confidence in their investment decisions?
 
-The purpose of this project is to explore how deep learning models, specifically stacked LSTMs, can be applied to predict stock prices and how these predictions can aid investors in balancing their portfolios. With machine learning models becoming increasingly sophisticated, accurate stock price predictions have the potential to revolutionize both personal and institutional trading strategies, contributing to the stability and growth of financial markets.
+1. **Customer Reviews:**
+   - What are the most common complaints or areas of praise in British Airways customer reviews?
+   - How do customer sentiments correlate with various aspects of the airline service (e.g., in-flight meals, seat comfort, baggage policies)?
 
-## Data
+2. **Customer Bookings:**
+   - What factors contribute the most to a customer completing a booking?
+   - Can we predict whether a customer will complete a booking based on available data such as route, sales channel, or trip type?
+   - How can British Airways improve its offerings to increase the likelihood of customers completing a booking?
 
-### Data Sources
-The datasets used in this project comprise historical stock prices for six major companies from different sectors: Coca-Cola (consumer goods), Apple (technology), Amazon (e-commerce/technology), Pfizer (healthcare), Chevron (energy), and Tesla (automotive). The data has been sourced from Yahoo Finance, accessed via the `yfinance` API, covering a period of 20 years (2003 to 2023).
+---
 
-### Data Size
-The individual CSV files for each company vary in size but are approximately 0.55 MB each. For six companies, the total data size aggregates to approximately 3.3 MB.
+# 3. Data
 
-### Data Shape
-Each CSV file contains approximately 5034 rows and 7 columns. Combined, the total data shape can be represented as follows:
-- **Total number of rows**: 30,204 (5034 rows per file × 6 files)
-- **Number of columns**: 7 per file
+### 1. **Customer Reviews (Web Scraped)**
 
-### Time Period
-The data spans a period from 2004-09-01 to 2024-08-30, providing a comprehensive historical view of stock prices for each company over 20 years.
+- **Source**: Skytrax (Airline review website)
+- **Data Type**: Purely textual data, containing customer reviews.
+- **Data Size**: TBD after scraping (will depend on how many reviews are collected).
+- **Data Shape**: TBD after scraping (e.g., 5000 rows, 5 columns).
+- **Data Cleaning**: The text data will require cleaning, including removal of HTML tags, special characters, and stop words.
+- **Analysis Techniques**: Sentiment analysis, topic modeling, and word cloud generation.
 
-### Row Representation
-Each row represents daily stock prices for a particular stock.
+### 2. **Customer Booking Dataset**
 
-### Data Dictionary
-- **Date**: Date of the stock price.
-- **Open**: Opening price.
-- **Close**: Closing price.
-- **High**: Highest price of the day.
-- **Low**: Lowest price of the day.
-- **Volume**: Volume of shares traded.
+- **Source**: British Airways
+- **Data Size**: 5.3 MB (50,000 rows, 14 columns)
+- **Time Period**: The dataset does not specify the time period, but it represents recent booking data.
+- **Row Representation**: Each row represents a customer booking attempt.
 
-### Target and Features
-- **Target**: Predict future `Close` prices.
-- **Features**: 
-  - `Volume`
-  - `Open`
-  - `High`
-  - `Low`
-  - Moving averages
+#### Data Dictionary:
+
+| Column Name            | Data Type | Definition                                                              | Potential Values                      |
+|------------------------|-----------|-------------------------------------------------------------------------|---------------------------------------|
+| `num_passengers`        | int64     | Number of passengers traveling                                          | Integer                               |
+| `sales_channel`         | object    | Sales channel the booking was made on                                   | Online, Mobile                        |
+| `trip_type`             | object    | Type of trip (Round Trip, One Way, Circle Trip)                         | Categorical (Round Trip, One Way)     |
+| `purchase_lead`         | int64     | Number of days between booking and travel date                          | Integer                               |
+| `length_of_stay`        | int64     | Number of days spent at the destination                                 | Integer                               |
+| `flight_hour`           | int64     | Hour of the flight departure                                            | Integer (0-23)                        |
+| `flight_day`            | object    | Day of the week of flight departure                                     | Categorical (Monday-Sunday)           |
+| `route`                 | object    | Flight route (Origin -> Destination)                                    | Categorical (e.g., JFK -> LHR)        |
+| `booking_origin`        | object    | Country from where the booking was made                                 | Categorical (e.g., USA, UK)           |
+| `wants_extra_baggage`   | int64     | If the customer wanted extra baggage                                    | Binary (1 = Yes, 0 = No)              |
+| `wants_preferred_seat`  | int64     | If the customer wanted a preferred seat                                 | Binary (1 = Yes, 0 = No)              |
+| `wants_in_flight_meals` | int64     | If the customer wanted in-flight meals                                  | Binary (1 = Yes, 0 = No)              |
+| `flight_duration`       | float64   | Total flight duration (in hours)                                        | Float                                 |
+| `booking_complete`      | int64     | Whether the customer completed the booking (Target Variable)            | Binary (1 = Yes, 0 = No)              |
+
+**Target Variable:**  
+`booking_complete` (1 = Booking Complete, 0 = Booking Incomplete)
+
+**Potential Features for Modeling:**
+
+- `num_passengers`
+- `purchase_lead`
+- `length_of_stay`
+- `flight_hour`
+- `flight_day`
+- `route`
+- `booking_origin`
+- `wants_extra_baggage`
+- `wants_preferred_seat`
+- `wants_in_flight_meals`
+- `flight_duration`
+- `sales_channel`
+
