@@ -7,13 +7,13 @@ Enhancing Business Insights for British Airways: Predictive Modeling and Custome
 UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
 
 **Author Name:**  
-[Your Name]
+Esther Priyadarshini
 
 **GitHub Repository:**  
-[Link to the project GitHub repo]
+https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone
 
 **LinkedIn Profile:**  
-[Link to your LinkedIn profile]
+https://www.linkedin.com/in/estherpriyadarshini/
 
 **PowerPoint Presentation:**  
 [Link to PowerPoint presentation]
@@ -54,17 +54,16 @@ This project is focused on providing actionable business insights to British Air
 ### 1. **Customer Reviews (Web Scraped)**
 
 - **Source**: Skytrax (Airline review website)
-- **Data Type**: Purely textual data, containing customer reviews.
-- **Data Size**: TBD after scraping (will depend on how many reviews are collected).
-- **Data Shape**: TBD after scraping (e.g., 5000 rows, 5 columns).
-- **Data Cleaning**: The text data will require cleaning, including removal of HTML tags, special characters, and stop words.
-- **Analysis Techniques**: Sentiment analysis, topic modeling, and word cloud generation.
+- **Data Type**: Object type, containing customer reviews.
+- **Data Size**: 3.5 MB
+- **Data Shape**: 3858 rows and 2 columns
+- **Time Period**: 2011 to 2024
 
 ### 2. **Customer Booking Dataset**
 
 - **Source**: British Airways
 - **Data Size**: 5.3 MB (50,000 rows, 14 columns)
-- **Time Period**: The dataset does not specify the time period, but it represents recent booking data.
+- **Time Period**: The dataset is anonymised and does not specify the time period, but it represents recent booking data.
 - **Row Representation**: Each row represents a customer booking attempt.
 
 #### Data Dictionary:
