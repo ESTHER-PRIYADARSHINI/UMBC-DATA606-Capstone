@@ -52,6 +52,9 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
 - Correlation matrix:
   - **Flight duration**: Negatively correlated with booking completion (-0.11).
   - **Number of passengers**: Negatively correlated with length of stay (-0.12).
+ 
+    ![Unknown-3](https://github.com/user-attachments/assets/9935b290-66e6-4290-a98c-674e5d7ba96a)
+
 
 
 ## Exploratory Data Analysis (EDA)
