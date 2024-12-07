@@ -63,20 +63,22 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
     - Insight: Long purchase lead times may indicate lower commitment, and shorter times may reflect more urgent bookings.
 
     ![Purchase Lead vs Booking Completion](newplot-2.png)
+   ![newplot-4](https://github.com/user-attachments/assets/cd2b90b3-2f2c-4c39-a13a-2ed9737df604)
 
-2. **Number of Passengers vs Booking Completion**:
+
+3. **Number of Passengers vs Booking Completion**:
     - The bar chart demonstrates that bookings with only one or two passengers dominate the dataset. Customers with a single passenger are less likely to complete their bookings compared to multi-passenger bookings.
     - Insight: Single-passenger bookings could signify exploratory or casual browsing behavior.
 
     ![Number of Passengers vs Booking Completion](newplot-3.png)
 
-3. **Flight Hour vs Booking Completion**:
+4. **Flight Hour vs Booking Completion**:
     - The histogram shows booking completion rates across different flight hours. Booking completion is relatively consistent throughout the day, though early morning hours (e.g., 0–6 AM) show fewer completions.
     - Insight: Customers booking flights during off-peak hours might be less committed.
 
     ![Flight Hour vs Booking Completion](newplot-4.png)
 
-4. **Booking Completion Distribution**:
+5. **Booking Completion Distribution**:
     - The bar chart reveals a significant class imbalance in the dataset, with only 15% of bookings marked as complete and 85% as incomplete.
     - Insight: This imbalance was addressed using SMOTE during preprocessing to improve model performance.
 
