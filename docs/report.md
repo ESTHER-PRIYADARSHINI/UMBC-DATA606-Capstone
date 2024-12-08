@@ -137,7 +137,7 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
 
 
 ### Evaluation Metrics
-- Accuracy, Precision, Recall, F1-Score, ROC-AUC.
+- Accuracy, Precision, Recall, F1-Score.
 
   <img width="849" alt="Performance metrics" src="https://github.com/user-attachments/assets/444b8c50-c457-4cf0-9e5a-188c90396c7a">
 
