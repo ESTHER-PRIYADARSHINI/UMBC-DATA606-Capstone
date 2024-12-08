@@ -1,8 +1,10 @@
 
 # Predicting Customer Bookings
 
-Prepared for **UMBC Data Science Master Degree Capstone** by **Dr. Chaojie (Jay) Wang**  
-Author: **Esther Priyadarshini**  
+## Title: **Enhancing Buisness Insights For British Airways**
+
+Prepared for **UMBC Data Science Master Degree Capstone Fall 2024** Advised by **Dr. Chaojie (Jay) Wang**  
+Author: **FNU Esther Priyadarshini**  
 - [GitHub Repository](https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone/tree/main)
 - [LinkedIn Profile](https://www.linkedin.com/in/estherpriyadarshini/)
 - [PowerPoint Presentation File](https://docs.google.com/presentation/d/1ahgKaqQC6SdfLLqJFZblKgSkt1iOnSDb/edit?usp=sharing&ouid=109867590505726275106&rtpof=true&sd=true)
