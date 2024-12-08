@@ -5,7 +5,7 @@ Prepared for **UMBC Data Science Master Degree Capstone** by **Dr. Chaojie (Jay)
 Author: **Esther Priyadarshini**  
 - [GitHub Repository](https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone/tree/main)
 - [LinkedIn Profile](https://www.linkedin.com/in/estherpriyadarshini/)
-- [PowerPoint Presentation File](#)
+- [PowerPoint Presentation File]([#](https://docs.google.com/presentation/d/1kJdjI4w5WOlfVCJtoOG3w1al8gKXYzES/edit?usp=sharing&ouid=109867590505726275106&rtpof=true&sd=true))
 - [YouTube Video](#)
 
 ## Background
