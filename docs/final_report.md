@@ -6,7 +6,7 @@ Author: **Esther Priyadarshini**
 - [GitHub Repository](https://github.com/ESTHER-PRIYADARSHINI/UMBC-DATA606-Capstone/tree/main)
 - [LinkedIn Profile](https://www.linkedin.com/in/estherpriyadarshini/)
 - [PowerPoint Presentation File](https://docs.google.com/presentation/d/1ahgKaqQC6SdfLLqJFZblKgSkt1iOnSDb/edit?usp=sharing&ouid=109867590505726275106&rtpof=true&sd=true)
-- [YouTube Video](#)
+- [YouTube Video](https://www.youtube.com/watch?v=uVX-CYmGOTo)
 
 ## Background
 
