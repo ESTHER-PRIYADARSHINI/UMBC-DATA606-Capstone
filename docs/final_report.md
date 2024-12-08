@@ -109,14 +109,14 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
 ## Model Training
 
 ### Models
-- Logistic Regression
-- Random Forest (with hyperparameter tuning)
-- XGBoost
+- Logistic Regression - unsatisfactory results
+- Random Forest (with hyperparameter tuning) - improved performance metrics as shown below in screenshots
+- XGBoost - improved performance metrics on par with hyperparameter tuned Random Forest with GridSearchCV
 
 ### Training Strategy
 - Train-test split: 80/20
 - Addressed class imbalance with SMOTE.
-- Tools: Python, scikit-learn, XGBoost, Plotly.
+- Tools: Python, scikit-learn, XGBoost, PlotlyExpress, Streamlit.
 
 ### Deployment
 - Web app deployed via Streamlit for user interaction with the predictive models.
@@ -145,7 +145,8 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
 ### Key Findings
 - Improved prediction accuracy with ensemble models like Random Forest and XGBoost.
 - Feature importance analysis revealed critical factors like `purchase_lead` and `trip_type`.
-- Better prediction  Better strategies  Higher booking conversion rates.
+- Better prediction leads to better strategies which help in booking conversion rates.
+- This inturn translates to better buisness outcomes.
 
 ### Limitations
 - Imbalanced dataset required synthetic oversampling techniques (SMOTE).
