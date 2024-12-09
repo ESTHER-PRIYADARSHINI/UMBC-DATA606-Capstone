@@ -123,9 +123,9 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
 ### Deployment
 - Web app deployed via Streamlit for user interaction with the predictive models.
 
-  <img width="1275" alt="Screenshot 2024-11-07 at 2 28 53 PM" src="https://github.com/user-attachments/assets/a5867720-73ea-43b6-9569-ea2ae13de5ec">
+<img width="1275" alt="Screenshot 2024-11-07 at 2 28 53 PM" src="https://github.com/user-attachments/assets/a5867720-73ea-43b6-9569-ea2ae13de5ec">
 
-  <img width="1245" alt="Screenshot 2024-11-07 at 2 29 16 PM" src="https://github.com/user-attachments/assets/53e28e67-cbe2-49bb-8389-2436a059b417">
+<img width="1245" alt="Screenshot 2024-11-07 at 2 29 16 PM" src="https://github.com/user-attachments/assets/53e28e67-cbe2-49bb-8389-2436a059b417">
 
 <img width="904" alt="Screenshot 2024-11-07 at 2 30 04 PM" src="https://github.com/user-attachments/assets/fdf68797-cb31-4920-8266-0acd753eb92e">
 
@@ -139,7 +139,7 @@ Better prediction capabilities lead to actionable strategies, enabling businesse
 ### Evaluation Metrics
 - Accuracy, Precision, Recall, F1-Score.
 
-  <img width="849" alt="Performance metrics" src="https://github.com/user-attachments/assets/444b8c50-c457-4cf0-9e5a-188c90396c7a">
+<img width="849" alt="Performance metrics" src="https://github.com/user-attachments/assets/444b8c50-c457-4cf0-9e5a-188c90396c7a">
 
 
 ## Conclusion
